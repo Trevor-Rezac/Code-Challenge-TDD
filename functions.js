@@ -157,12 +157,12 @@ export function getLastItem(array) {
 
 // Ask yourself: even if you cannot predict the result exactly, what _do_ you know about what it should return? Use that expectation to write your test
 
-export function getRandomNumber() {
-    let val = Math.floor(Math.random() * 6);
-    if(typeof val === 'number' && val >= 0 && val <= 5) {
-        return val;
-    } else {
+// export function getRandomNumber() {
+//     let val = Math.floor(Math.random() * 6);
+//     if(typeof val === 'number' && val >= 0 && val <= 5) {
+//         return val;
+//     } else {
         
-    };
+//     };
     
-}
+// }
